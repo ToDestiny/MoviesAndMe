@@ -13,8 +13,8 @@ export default function App() {
   return(
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Search" component={Search}/>
-        <Stack.Screen name="FilmDetail" component={FilmDetail}/>
+        <Stack.Screen name="Rechercher" component={Search}/>
+        <Stack.Screen name="Détail du film" component={FilmDetail}/>
       </Stack.Navigator>
     </NavigationContainer>
     )
